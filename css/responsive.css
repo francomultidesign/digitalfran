@@ -1,0 +1,624 @@
+/*******************************
+GENERIC LAPTOP 1366x768
+*******************************/
+@media screen and (min-width: 1367px) and (max-width: 2200px){
+  .home, .works, .contact {
+  }
+  .first img {
+    width: 100%;
+  }
+  .second img {
+    width: 1026px;
+  }
+  .img-lake-mountains {
+    margin-top: 8px; 
+  }
+  .bote {
+    margin-top: 40px;
+  }
+  .sun object {
+    margin-top: -10px;
+  }
+  .bg-contact li:nth-of-type(1) object {
+    width: 100%;
+  }
+  .bg-contact li:nth-of-type(2) img {
+    width: 100%;
+  }
+  .bg-contact li:nth-of-type(3) img {
+    width:78%;
+  }
+  .bg-contact li:nth-of-type(4) img {
+    width: 70%;
+  }
+  .bg-contact li:nth-of-type(5) img {
+    width: 44%;
+  }
+  .bg-contact li:nth-of-type(6) object {
+    width: 100%;
+    top: -1px;
+  }
+  .bg-contact li:nth-of-type(7) object {
+    width: 100%;
+    bottom: -1px;
+  }
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-content > p {
+    line-height: 18pt;
+    font-size: 15pt;
+  }
+  .icon-parent {
+    opacity: .2;
+    filer: alpha(opacity=20);
+    top: -278px;
+  }
+}
+/*******************************
+GENERIC LAPTOP 1280x800
+*******************************/
+@media screen and (min-width: 1200px) and (max-width: 1366px){
+  .first img {
+    width: 100%;
+    top: 0px;
+  }
+  .second img {
+    width: 60%;
+    margin-top: 0px;
+  }
+  .img-lake-mountains {
+    margin-top: -70px;
+  }
+  .bote {
+    margin-top: -68px;
+  }
+  .sun object {
+    margin-top: -108px;
+  }
+  .bg-contact li:nth-of-type(1) object {
+    width: 106%;
+  }
+  .bg-contact li:nth-of-type(2) img {
+    width: 100%;
+  }
+  .bg-contact li:nth-of-type(3) img {
+    width:78%;
+  }
+  .bg-contact li:nth-of-type(4) img {
+    width: 70%;
+  }
+  .bg-contact li:nth-of-type(5) img {
+    width: 50%;
+  }
+  .bg-contact li:nth-of-type(7) object,
+  .bg-contact li:nth-of-type(6) object {
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+  }
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-content > p {
+    line-height: 18pt;
+    font-size: 15pt;
+  }
+  .copy {
+    bottom: 10px;
+  }
+  .icon-parent {
+    opacity: .2;
+    filer: alpha(opacity=20);
+    top: -278px;
+  }
+}
+/*******************************
+FOR TABLET LANDSCAPE
+*******************************/
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+  .first img {
+    width: 120%;
+    top: 26px;
+  }
+  .second img {
+    width: 64%;
+    margin-top: 65px;
+  }
+  .img-lake-mountains {
+    margin-top: -82px;
+  }
+  .bote {
+    margin-top: -30px;
+  }
+  .sun object {
+    margin-top: -116px;
+    margin-left: 200px;
+  }
+  .bg-contact li:nth-of-type(1) object {
+    width: 140%;
+  }
+  .bg-contact li:nth-of-type(2) img {
+    width: 120%;
+  }
+  .bg-contact li:nth-of-type(3) img {
+    width:78%;
+  }
+  .bg-contact li:nth-of-type(4) img {
+    width: 70%;
+  }
+  .bg-contact li:nth-of-type(5) img {
+    width: 55%;
+  }
+  .bg-contact li:nth-of-type(6) object {
+    width: 101%;
+    top: -1px;
+  }
+  .bg-contact li:nth-of-type(7) object {
+    width: 101%;
+    bottom: -1px;
+  }
+  .contact-content {
+    margin-top: 100px;
+  }
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-content > p {
+    line-height: 18pt;
+    font-size: 15pt;
+  }
+  .copy {
+    bottom: 10px;
+  }
+  li .figure .figcaption {
+    position: relative;
+    top: -160px;
+    width: 100%;
+    transition: .2s ease-in-out all;
+    -webkit-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    -moz-transition: .2s ease-in-out all;
+  }
+  .contact-content {
+    margin-top: 80px;
+  }
+  .popup p {
+    margin-top: -5px;
+  }
+  .t-large {
+    width: 278px;
+  }
+  .t-large .figure > img {
+    transform: translateX(-139px);
+    -webkit-transform: translateX(-139px);
+    -o-transform: translateX(-139px);
+    -moz-transform: translateX(-139px);
+  }
+
+  .info-contact {
+    clear:  both;
+    padding-top: 10px;
+  }
+  .icon-parent {
+    opacity: .2;
+    filer: alpha(opacity=20);
+    top: -278px;
+  }
+  .mfp-content {
+    height: 80%;
+    top: 10%;
+  }
+  li:hover .figure .figcaption {
+    top: auto;
+  }
+}
+/*******************************
+FOR TABLET PORTRAIT
+*******************************/
+@media screen and (min-width: 641px) and (max-width: 999px){
+
+  .first img {
+    width: 214%;
+    top: 26px;
+    margin-left: -100px;
+  }
+  .second img {
+    display: none;
+  }
+  .img-lake-mountains {
+    margin-top: -110px;
+  }
+  .bote {
+    margin-top: -66px;
+  }
+  .sun object {
+    margin-top: -116px;
+    margin-left: 200px;
+  }
+  .home-title {
+    font-size: 58px;
+    margin-left: -130px;
+    margin-top: -63px;
+  }
+  .bg-contact li:nth-of-type(1) object {
+    width: auto;
+  }
+  .bg-contact li:nth-of-type(2) img {
+    width: 220%;
+    left: -42%;
+  }
+  .bg-contact li:nth-of-type(3) img {
+    width: 145%;
+    left: -55%;
+    margin-bottom: 0px;
+  }
+  .bg-contact li:nth-of-type(4) img {
+    width: 70%;
+    display: none;
+  }
+  .bg-contact li:nth-of-type(5) img {
+    width: 90%;
+  }
+  .bg-contact li:nth-of-type(6) object {
+    top: -1px;
+    width: 100%;
+  }
+  .bg-contact li:nth-of-type(7) object {
+    width: 100%;
+    bottom: -1px;
+  }
+  .contact-content {
+    background: rgba(0,0,0,.5);
+  }
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-content > p {
+    line-height: 18pt;
+    font-size: 15pt;
+  }
+  .copy {
+    bottom: 10px;
+  }
+  li .figure .figcaption {
+    position: relative;
+    top: -160px;
+    width: 100%;
+    transition: .2s ease-in-out all;
+    -webkit-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    -moz-transition: .2s ease-in-out all;
+  }
+  .popup p {
+    margin-top: -5px;
+  }
+  .popup {
+    height: 70%;
+    padding: 0;
+  }
+  .icon-parent {
+    opacity: .2;
+    filer: alpha(opacity=20);
+    top: -278px;
+  }
+  .mfp-content {
+    height: 60%;
+    top: 20%;
+  }
+}
+
+/*******************************
+FOR SMARTPHONES (IPHONE) LANDSCAPE
+*******************************/
+
+@media screen and (min-width: 480px) and (max-width: 640px){
+  .home-title {
+    font-size: 34px;
+    margin-left: -60px;
+    margin-top: -38px;
+  }
+  .first img {
+    width: 105%;
+    top: 0;
+    margin-left: 0;
+  }
+  .second img {
+    display: none;
+  }
+  .img-lake-mountains {
+    margin-top: -77px;
+  }
+  .bote {
+    margin-top: 0px;
+    margin-left: 82px;
+  }
+  .sun object {
+    margin-top: -116px;
+    margin-left: 126px;
+  }
+  .works-title {
+    font-size: 24px;
+  }
+  .bg-contact li:nth-of-type(1) object {
+    width: 100%;
+  }
+  .bg-contact li:nth-of-type(2) img {
+    width: 110%;
+    left: -8%;
+    margin-bottom: 0px;
+  }
+  .bg-contact li:nth-of-type(3) img {
+    width: 90%;
+    left: -24%;
+    margin-bottom: -0px;
+  }
+  .bg-contact li:nth-of-type(4) img {
+    width: 70%;
+    display: none;
+  }
+  .bg-contact li:nth-of-type(5) img {
+    width: 50%;
+    margin-right: -75px;
+  }
+  .bg-contact li:nth-of-type(6) object {
+    top: -1px;
+    width: 101%;
+  }
+  .bg-contact li:nth-of-type(7) object {
+    width: 103%;
+    bottom: -1px;
+  }
+  .contact-content {
+    padding: 10px 15px;
+    margin-top: 40px;
+  }
+  .thanks {
+    display: none;
+  }
+  .contact-title {
+    font-size: 20px;
+  }
+  .contact-content > p {
+    line-height: 18pt;
+    font-size: 15pt;
+  }
+  .copy {
+    bottom: 10px;
+  }
+  li .figure .figcaption {
+    position: relative;
+    top: -80px;
+    width: 278px;
+    transition: .2s ease-in-out all;
+    -webkit-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    -moz-transition: .2s ease-in-out all;
+  }
+  .popup p {
+    margin-top: -5px;
+  }
+  .t-large {
+    width: 278px;
+  }
+  .t-large .figure {
+    width: 278px;
+  }
+  .t-large .figure img {
+    width: auto;
+    position: relative;
+    left: -138px;
+  }
+  .popup {
+    height: 70%;
+    padding: 0;
+  }
+  .social-section {
+    float: right;
+  }
+  .mobile-fix {
+    float: left;
+    width: 57%;
+    font-size: 16px !important;
+  }
+  .clear {
+    clear: both;
+  }
+  .picture img {
+    width: 80px;
+  }
+  .info-contact > p {
+    line-height: 6pt;
+    font-size: 11pt;
+  }
+  .copy {
+    bottom: 2px;
+    margin-left: -29px;
+    font-size: 11px;
+  }
+  .icon-parent {
+    opacity: .2;
+    filer: alpha(opacity=20);
+    top: -278px;
+  }
+}
+/*******************************
+FOR SMARTPHONES (IPHONE) PORTRAIT
+*******************************/
+
+@media screen and (min-width: 0px) and (max-width: 479px){
+  .quotes i {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 20px;
+    display: block;
+    text-align: right;
+  }
+  .contact .container {
+    margin-top: 20%;
+  }
+  .container-position {
+    width: 100%;
+    text-align: center;
+  }
+  .works {
+    padding: 5px 0;
+    margin: 0;
+  }
+  .home-title {
+    font-size: 26px;
+    margin-left: 0;
+    margin-top: 33px;
+    padding: 0 8px;
+  }
+  .work-list-container {
+    margin-top: 25%;
+  }
+  .image-loader-custom {
+    top: 0;
+  }
+  .contact-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+  }
+  .contact-content > p {
+    line-height: 18pt;
+    font-size: 15pt;
+  }
+  .copy {
+    bottom: 10px;
+  }
+  li .figure .figcaption, 
+  li:hover .figure .figcaption {
+    position: relative;
+    top: -220px;
+    width: 100%;
+    min-height: 220px;
+  }
+  li:hover .figure img {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  .popup p {
+    margin-top: -5px;
+  }
+  .popup {
+    height: 70%;
+    padding: 0;
+  }
+  .social-section {
+    float: none;
+    margin-top: 0;
+  }
+  .mobile-fix {
+    float: none;
+    width: auto;
+    font-size: 16px !important;
+    line-height: 16px !important;
+  }
+  .clear {
+    clear: both;
+  }
+  .picture {
+    margin-top: 10px;
+  }
+  .picture img {
+    width: 80px;
+  }
+  .info-contact {
+    margin-top: 10px;
+  }
+  .info-contact p {
+    line-height: 25px;
+    font-size: 16px;
+  }
+  .mobile-version {
+    display: none;
+  }
+  .desktop-version {
+    display: block;
+  }
+  .skills-list {
+    border: none;
+  }
+  .skills-list h3, .hobbies h3, .social-media h3, .about-me h3 {
+    font-size: 20px;
+  }
+  .hobbies-list li:nth-child(1) i,
+  .hobbies-list li:nth-child(3) i,
+  .hobbies-list li:nth-child(5) i {
+    transform: rotate(0deg);
+  }
+  .hobbies-list li:nth-child(2) i,
+  .hobbies-list li:nth-child(4) i,
+  .hobbies-list li:nth-child(6) i {
+    bottom: 0px;
+    transform: rotate(0deg);
+  }
+  .hobbies-list li {
+    margin: 10px 5px;
+  }
+  .skills-list p {
+    font-size: 18px;
+    font-weight:100;
+  }
+  .skills-list p i {
+    font-size: 12px;
+    top: 6px;
+    right:0;
+  }
+  .picture img {
+    display: none;
+  }
+  .social-media a {
+    width: 80px;
+    height: 80px;
+    margin: 0 5px;
+    margin-bottom: 44px;
+    font-size:50px;
+  }
+  .social-media a i {
+    line-height:80px;
+  }
+  .facebook, .skype {
+    left: 0;
+  }
+  .mfp-content {
+    top: 5%;
+    height: 50%;
+  }
+  .mfp-arrow {
+    top: 20%;
+    margin-top:0;
+  }
+  .mfp-arrow {
+    -webkit-transform: scale(0.45);
+    transform: scale(0.45);
+  }
+  .icon-parent {
+    opacity: .2;
+    filer: alpha(opacity=20);
+    top: -278px;
+  }
+  .subtitle:first-of-type {
+    margin-top: 0;
+  }
+  .subtitle {
+    display: none;
+  }
+  .t-small, .t-small .figure {
+    width: 220px;
+    height: 220px;
+  }
+  .figcaption .pink-button {
+    padding: 2px 32px;
+  }
+  nav ul li a span {
+    text-indent: -999px;
+    display: block
+  }
+}
