@@ -343,7 +343,7 @@ $(document).ready(function(){
   var hashdogVideos = [
     {
       technology: "<h1>Hashdog Corto</h1><p>Se muestra como un Dogger, proveniente de hashdog, resuelve un conflicto que un desarrollador no pudo solucionar.</p><ul><li>Adobe After Effects CS6</li><li>Adobe Premiere Pro</li></ul>",
-      src: 'http://www.youtube.com/watch?v=FFP5juHwjHw', 
+      src: 'https://www.youtube.com/watch?v=Zt_CnXwuZQw', 
     },
     {
       technology: "<h1>Hashdog Intro</h1><p>Una pequeña muestra del poder de After Effecs.</p><ul><li>Adobe After Effects CS6</li><li>Adobe Premiere Pro</li></ul>",

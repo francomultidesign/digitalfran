@@ -238,8 +238,11 @@ FOR TABLET PORTRAIT
   }
   .home-title {
     font-size: 58px;
-    margin-left: -130px;
-    margin-top: -63px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .br-class {
+    display: none;
   }
   .bg-contact li:nth-of-type(1) object {
     width: auto;
@@ -453,6 +456,9 @@ FOR SMARTPHONES (IPHONE) PORTRAIT
     line-height: 20px;
     display: block;
     text-align: right;
+  }
+  .br-class {
+    display: none;
   }
   .contact .container {
     margin-top: 20%;
