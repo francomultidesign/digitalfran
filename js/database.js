@@ -283,7 +283,7 @@ $(document).ready(function(){
   // HASHDOG SITE
   var hashdogPages = [  
     {
-      plugins: "<h1>Beerpay: Pay Beer, Pay Open Source</h1><strong>Servicio qeu ofrece la posibilidad de encontrar soporte en los projectos de GitHub.</strong><p>Tecnologias utilizadas para la realizacion del sitio:</p><ul><li>Bootstrap</li><li>IcoMoon (Fuente en iconos propias)</li><li>Font Awesome</li><li>Google Fonts</li><li>CSS3 Animations</li><li>HTML5</li><li>JQuery</li><li>Adobe Illustrator CS6</li></ul>",
+      plugins: "<h1>Beerpay: Pay Beer, Pay Open Source</h1><strong>Servicio que ofrece la posibilidad de encontrar soporte en los projectos de GitHub.</strong><p>Tecnologias utilizadas para la realizacion del sitio:</p><ul><li>Bootstrap</li><li>IcoMoon (Fuente en iconos propias)</li><li>Font Awesome</li><li>Google Fonts</li><li>CSS3 Animations</li><li>HTML5</li><li>JQuery</li><li>Adobe Illustrator CS6</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-beerpay.jpg', 
       url_href: "https://beerpay.io/",
     },
@@ -369,7 +369,7 @@ $(document).ready(function(){
   // initalize popup
   $('button.giudice').magnificPopup({ 
     key: 'show-websites', 
-    items: fundationTuquito,
+    items: giudice,
     type: 'inline',
     inline: {markup: markupWebsite},
     gallery: {enabled: true }
