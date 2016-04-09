@@ -283,15 +283,50 @@ $(document).ready(function(){
   // HASHDOG SITE
   var hashdogPages = [  
     {
-      plugins: "<h1>Hashdog: Sitio Oficial</h1><p>Tecnologias utilizadas para la realizacion del sitio:</p><ul><li>Bootstrap</li><li>IcoMoon</li><li>Google Fonts</li><li>HTML5</li><li>JQuery</li><li>ResponsiveSlider.js</li><li>Adobe Illustrator</li></ul>",
+      plugins: "<h1>Beerpay: Pay Beer, Pay Open Source</h1><strong>Servicio qeu ofrece la posibilidad de encontrar soporte en los projectos de GitHub.</strong><p>Tecnologias utilizadas para la realizacion del sitio:</p><ul><li>Bootstrap</li><li>IcoMoon (Fuente en iconos propias)</li><li>Font Awesome</li><li>Google Fonts</li><li>CSS3 Animations</li><li>HTML5</li><li>JQuery</li><li>Adobe Illustrator CS6</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-beerpay.jpg', 
+      url_href: "https://beerpay.io/",
+    },
+    {
+      plugins: "<h1>Hashdog: Sitio Oficial</h1><p>Tecnologias utilizadas para la realizacion del sitio:</p><ul><li>Bootstrap</li><li>IcoMoon</li><li>Google Fonts</li><li>CSS3 Animations</li><li>HTML5</li><li>JQuery</li><li>Adobe Illustrator CS6</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdog.jpg', 
-      url_href: "http://www.hashdog.com/",      
+      url_href: "http://www.hashdog.com/",
+    },
+    {
+      plugins: "<h1>DoggerJS</h1><strong>Un servicio open source basado en javascript muy potente..</strong><p>Tecnologias utilizadas</p><ul><li>Bootstrap</li><li>JQuery</li><li>HTML5</li><li>Adobe Illustrator CS6</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-doggerjs.jpg',
+      url_href: "https://doggerjs.com/",
+    },
+    {
+      plugins: "<h1>Scrapfy</h1><strong>Un servicio open source para multiple ediciones de codigo en tiempo real. Solo se realizo el diseño y maquetación.</strong><p>Tecnologias utilizadas</p><ul><li>JQuery</li><li>Bootstrap</li><li>HTML5</li><li>Adobe Illustrator CS6</li><li>After Effects CS6 (GIFs)</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-scrapfy.jpg',
+      url_href: "http://scrapfy.io/",
+    },
+    {
+      plugins: "<h1>Enterprise</h1><strong>Para todos las empresas, la compañia hashdog, ofrecen tecnologias como Ruby on Rails y JS dev.</strong><p>Tecnologias utilizadas</p><ul><li>JQuery</li><li>CSS3 Animations</li><li>Bootstrap</li><li>HTML5</li><li>Adobe Illustrator CS6</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdog-enterprise.jpg',
+      url_href: "http://hashdog.com/business",
+    },
+    {
+      plugins: "<h1>Startups</h1><strong>Para todos los startups, la compañia hashdog, ofrecen servicios agiles y confiables.</strong><p>Tecnologias utilizadas</p><ul><li>JQuery</li><li>CSS3 Animations</li><li>Bootstrap</li><li>HTML5</li><li>Adobe Illustrator CS6</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdog-startups.jpg', 
+      url_href: "http://hashdog.com/startups",
+    },
+    {
+      plugins: "<h1>Happy New Year!</h1><p>Tecnologias utilizadas</p><ul><li>JPreloader</li><li>Skrollr.js</li><li>Animaciones CSS3</li><li>HTML5</li><li>Adobe Illustrator</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdog-newyear.jpg', 
+      url_href: "http://hashdog.com/newyear",
+    },
+    {
+      plugins: "<h1>Ninja Team: Dojo</h1><p>Tecnologias utilizadas</p><ul><li>HTML5</li><li>JPreloader.js</li><li>JQuery</li><li>Animaciones CSS3</li><li>Impress.js</li><li>Impress.js</li><li>Adobe Illustrator</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdog-ninja.jpg', 
+      url_href: "http://hashdog.ninja",
     },
     {
       plugins: "<h1>Hashdog: Presentacion Online</h1><p>Tecnologias utilizadas</p><ul><li>Bootstrap</li><li>Animate.css</li><li>Font Awesome (técnicas de Iconos como Fuentes)</li><li>HTML5</li><li>Animaciones CSS3</li><li>JQuery</li><li>Impress.js</li><li>Adobe Illustrator</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdog-brochure.jpg', 
-      url_href: "http://hashdog.com/brochure",      
-    },    
+      url_href: "http://hashdog.com/brochure",
+    },
     {
       plugins: "<h1>Hashdog.io: Fábrica de Software</h1><p>Tecnologias utilizadas para la realizacion del sitio:</p><ul><li>Bootstrap</li><li>IcoMoon</li><li>Google Fonts</li><li>HTML5</li><li>CSS3</li><li>Animaciones CSS3</li><li>JQuery</li><li>ResponsiveSlider.js</li><li>Adobe Illustrator</li><li>Adobe Photoshop</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogio.jpg', 
@@ -317,6 +352,22 @@ $(document).ready(function(){
   ];
   // initalize popup
   $('button.fundationTuquito').magnificPopup({ 
+    key: 'show-websites', 
+    items: fundationTuquito,
+    type: 'inline',
+    inline: {markup: markupWebsite},
+    gallery: {enabled: true }
+  });
+  // GIUDICE
+  var giudice = [
+    {
+      plugins: "<h1>Dr. Giudice</h1><strong>Renombrado cirujano plastico</strong><p>Tecnologias utilizadas para la realizacion del sitio:</p><ul><li>JQuery</li><li>Wordpress</li><li>HTML5</li><li>CSS3</li><li>IcoMoon (iconos personalizados en fuentes)</li><li>Animaciones CSS3</li><li>Adobe Photoshop</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-giudice.jpg', 
+      url_href: "http://www.matiasgiudice.com.ar/",
+    }
+  ];
+  // initalize popup
+  $('button.giudice').magnificPopup({ 
     key: 'show-websites', 
     items: fundationTuquito,
     type: 'inline',
