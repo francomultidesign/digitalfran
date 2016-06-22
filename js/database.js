@@ -399,6 +399,14 @@ $(document).ready(function(){
     {
       technology: "<h1>Hashdog Intro</h1><p>Una pequeña muestra del poder de After Effecs.</p><ul><li>Adobe After Effects CS6</li><li>Adobe Premiere Pro</li></ul>",
       src: 'http://www.youtube.com/watch?v=4HZ7mbtOCLM', 
+    },
+    {
+      technology: "<h1>Beerpay</h1><p>Graphic Motion. Un video con graficos animados informando porque debes usar Beerpay si tienes un proyecto open source.</p><ul><li>Adobe After Effects CS6</li><li>Adobe Illustrator CS6</li><li>Adobe Premiere Pro</li></ul>",
+      src: 'http://www.youtube.com/watch?v=eD71SzsInVY', 
+    },
+    {
+      technology: "<h1>Beerpay</h1><p>El primer video explicativo de Beerpay, un producto para desarrolladores open source.</p><ul><li>Sparkol Software</li><li>Adobe Illustrator CS6</li><li>Adobe Premiere Pro</li></ul>",
+      src: 'http://www.youtube.com/watch?v=V12mdAg4-sM', 
     }
   ];
   // initalize popup
