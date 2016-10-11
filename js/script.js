@@ -27,25 +27,24 @@ $(document).ready(function(){
     $('.trick').removeClass('inview');
     $('.home').removeClass('backdoor');
   });
-  // Title example
-  $('.tlt').textillate({
-    loop: true,
-    minDisplayTime: 100,
-    in: {
-      effect: 'flipInX',
-      delayScale: 0,
-    },
-    out: {
-      effect: 'fadeOutDown',
-      delayScale: 0,
-    },
-    type: 'word',
-  });
+
   // Fix for hover in buttons
   $('.my_popup_open, button').on('focus',function(){
     $(this).blur();
     });
 
+  // typed scipt
+  $(".texts").typed({
+      strings: ["diseñador web", "diseñador gráfico", "ilustrador", "animador 2D.", "editor de videos"],
+      typeSpeed: 50,
+      loop: true,
+      backDelay: 1500,
+  });
+  // filter btn
+  $(function(){
+      $('.work-list-container').mixItUp();
+  });
+  
 });
 
 // GOOGLE ANALITYCS
