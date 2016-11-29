@@ -173,7 +173,6 @@ FOR TABLET LANDSCAPE
   }
   li .figure .figcaption {
     position: relative;
-    top: -160px;
     width: 100%;
     transition: .2s ease-in-out all;
     -webkit-transition: .2s ease-in-out all;
@@ -286,7 +285,6 @@ FOR TABLET PORTRAIT
   }
   li .figure .figcaption {
     position: relative;
-    top: -160px;
     width: 100%;
     transition: .2s ease-in-out all;
     -webkit-transition: .2s ease-in-out all;

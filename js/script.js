@@ -1,22 +1,7 @@
 $(document).ready(function(){
-    $('.illustration, .websites, .videos, .contact').fadeOut('slow');
+    $('.contact').fadeOut('slow');
 
-    $('.websites-link a').on('click', function() {
-    $('.websites').fadeIn('slow')
-    $('.websites').addClass('inview');
-    $('.home').addClass('backdoor');
-  });
-    $('.illustration-link a').on('click', function() {
-    $('.illustration').fadeIn('slow');
-    $('.illustration').addClass('inview');
-    $('.home').addClass('backdoor');
-  });
-    $('.video-link a').on('click', function() {
-    $('.videos').fadeIn('slow');
-    $('.videos').addClass('inview');
-    $('.home').addClass('backdoor');
-  });
-  $('.contact-link a').on('click', function() {
+  $('.contact-link').on('click', function() {
     $('.contact').fadeIn('slow');
     $('.contact').addClass('inview');
     $('.home').addClass('backdoor');
@@ -35,7 +20,7 @@ $(document).ready(function(){
 
   // typed scipt
   $(".texts").typed({
-      strings: ["diseñador web", "diseñador gráfico", "ilustrador", "animador 2D.", "editor de videos"],
+      strings: ["diseñador web", "diseñador gráfico", "ilustrador", "animador 2D", "editor de videos" , "diseñador de multimedia..."],
       typeSpeed: 50,
       loop: true,
       backDelay: 1500,
