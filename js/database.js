@@ -178,27 +178,27 @@ $(document).ready(function(){
   var hashdogBanners = [
     {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para los Startups de toda América.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/big-hashdogBanner-1.jpg', 
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-1.jpg', 
     },
     {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para los Startups de toda América.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/big-hashdogBanner-2.jpg',
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-2.jpg',
     },
     {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para clientes que requieran calidad al estilo Ninja.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/big-hashdogBanner-3.jpg',
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-3.jpg',
     },
     {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para clientes que requieran desarrolladores RubyOnRails al estilo Ninja.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/big-hashdogBanner-4.jpg',
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-4.jpg',
     },
     {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para clientes que requieran desarrolladores RubyOnRails al estilo Ninja.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/big-hashdogBanner-5.jpg',
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-5.jpg',
     },
     {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Doggers, son personajes que solo programan en RubyOnRails y se alimentan de Sándwiches.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/big-hashdogBanner-6.jpg',
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-6.jpg',
     }
   ];
 
