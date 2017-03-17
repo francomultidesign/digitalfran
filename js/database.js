@@ -3,20 +3,20 @@ $(document).ready(function(){
   //
   //  ILLUSTRATIONS
   //
-  var markupIllustrations = '<div class="popup container"><div class="mfp-close"></div>'+
-                        '<div class="row">'+
-                          '<div class="col-xs-12 col-sm-9">'+
-                            '<div class="image-loader-custom"></div>'+
-                            '<div class="mfp-illustration"></div>'+
-                          '</div>'+
-                          '<div class="col-xs-12 col-sm-3">'+
-                            '<div class="popup-description">'+
-                              '<div class="mfp-tech"></div>'+
-                            '</div>'+
-                          '</div>'+
-                        '</div>'+
-                      '</div>'
-
+  var markupIllustrations =
+  '<div class="popup container"><div class="mfp-close"></div>'+
+    '<div class="row">'+
+      '<div class="col-xs-12 col-sm-9">'+
+        '<div class="image-loader-custom"></div>'+
+        '<div class="mfp-illustration"></div>'+
+      '</div>'+
+      '<div class="col-xs-12 col-sm-3">'+
+        '<div class="popup-description">'+
+          '<div class="mfp-tech"></div>'+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+  '</div>'
 
   var markupWebsite = '<div class="popup container"><div class="mfp-close"></div>'+
                         '<div class="row">'+
@@ -55,10 +55,10 @@ $(document).ready(function(){
     },
     {
       tech: "<h1>Evento Beneficio</h1><p>Hashdog aportando a un evento Folklorico a beneficio.</p> <ul><li>Affinity Designer</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/nailu-1.jpg',
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/hashdog-evento.jpg',
     },
     {
-      tech: "<h1>Evento Beneficio</h1><p>Hashdog aportando a un evento Folklorico a beneficio.</p> <ul><li>Affinity Designer</li></ul>",
+      tech: "<h1>Feria Lomalinda</h1><p>Una feria artesanal local.</p> <ul><li>Affinity Designer</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/feria-lomalinda.jpg',
     }
   ];
@@ -66,6 +66,22 @@ $(document).ready(function(){
   $('button.folletos').magnificPopup({
     key: 'my-popup',
     items: folletos,
+    type: 'inline',
+    inline: {markup: markupIllustrations},
+    gallery: {enabled: true }
+  });
+
+  // Aduke
+  var adukebongoImpr = [
+    {
+      tech: "<h1>AdukeBongó</h1><p>Una banda musical que propone una experiencia distinta dentro del arte sonoro.</p> <ul><li>Adobe Photoshop CS6</li><li>Affinity Designer</li></ul> <strong>Puedes escuchar su musica aqui: <a href='https://adukebongo.com.ar/'>https://adukebongo.com.ar/</a>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/adukebongo.jpg',
+    },
+  ];
+  // initalize popup
+  $('button.adukebongoImpr').magnificPopup({
+    key: 'my-popup',
+    items: adukebongoImpr,
     type: 'inline',
     inline: {markup: markupIllustrations},
     gallery: {enabled: true }
@@ -143,23 +159,6 @@ $(document).ready(function(){
   //
   // WEB AND GRAPHIC DESIGN
   //
-
-
-
-
-  // Aduke
-  var adukebongoImpr = [{
-      tech: "<h1>AdukeBongó</h1><p>Una banda musical que propone una experiencia distinta dentro del arte sonoro.</p> <ul><li>Adobe Photoshop CS6</li><li>Affinity Designer</li></ul> <strong>Puedes escuchar su musica aqui: <a href='https://adukebongo.com.ar/'>https://adukebongo.com.ar/</a>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/adukebongo.jpg',
-    }];
-  // initalize popup
-  $('button.adukebongoImpr').magnificPopup({
-    key: 'my-popup',
-    items: adukebongoImpr,
-    type: 'inline',
-    inline: {markup: markupWebsite},
-    gallery: {enabled: true }
-  });
 
   // Beerpay
   var beerpaySite = [
@@ -364,6 +363,8 @@ $(document).ready(function(){
     },
     gallery: {enabled: true }
   });
+
+
   // FUNDATION VIDEOS
   var fundationVideos = [
     {
