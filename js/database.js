@@ -48,16 +48,24 @@ $(document).ready(function(){
                       '</div>'
   // INTERVIEWS
 
-  var interviews = [
+  var folletos = [
     {
-      tech: "<h1>Entrevistas</h1><p>Se solicitaron un grupo de programadores Rails para hashdog.com:</p> <ul><li>Adobe Illustrator CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdog-interview.jpg',
+      tech: "<h1>Nailu</h1><p>Una experiencia nueva al tomar mates.</p> <ul><li>Adobe Illustrator CS6</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/nailu-1.jpg',
+    },
+    {
+      tech: "<h1>Evento Beneficio</h1><p>Hashdog aportando a un evento Folklorico a beneficio.</p> <ul><li>Affinity Designer</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/nailu-1.jpg',
+    },
+    {
+      tech: "<h1>Evento Beneficio</h1><p>Hashdog aportando a un evento Folklorico a beneficio.</p> <ul><li>Affinity Designer</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/feria-lomalinda.jpg',
     }
   ];
   // initalize popup
-  $('button.interviews').magnificPopup({
+  $('button.folletos').magnificPopup({
     key: 'my-popup',
-    items: interviews,
+    items: folletos,
     type: 'inline',
     inline: {markup: markupIllustrations},
     gallery: {enabled: true }
@@ -70,9 +78,14 @@ $(document).ready(function(){
       tech: "<h1>Tarjeta Personal</h1><p>Erika Ríos - Fotógrafa.</p> <ul><li>Diseño Gráfico</li><li>Affinity Designer</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/erika-rios.jpg',
     },
+
     {
       tech: "<h1>Tarjeta Personal</h1><p>Mayra Alvarez - Shopaolic: Indumentaria Femenina.</p> <ul><li>Diseño Gráfico</li><li>Affinity Designer</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/mayra-alvarez.jpg',
+    },
+    {
+      tech: "<h1>Tarjeta Personal</h1><p>Debora Ríos - Nailu.</p> <ul><li>Diseño Gráfico</li><li>Affinity Designer</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/erika-rios.jpg',
     },
     {
       tech: "<h1>Tarjeta Personal</h1><p>Esta es mi tarjeta personal de hashdog.com</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
@@ -100,76 +113,28 @@ $(document).ready(function(){
     gallery: {enabled: true }
   });
 
-  //
-  // VINYLS
-  //
-
-  var vinyls = [
-    {
-      tech: "<h1>Vinilos con estilo</h1><p>Hashdog impone una fresca imagen de su oficina con vinilos poco común!.</p> <ul><li>Diseño Gráfico</li><li>Adobe Illustrator CS6</li></ul>",
-      illustration_img: 'http://hashdog.com/gallery/8.jpg',
-    },
-    {
-      tech: "<h1>Vinilos con estilo</h1><p>Un gran calendario que ayuda a la organizacion e imagen interna en la sala de conferencias.</p> <ul><li>Diseño Gráfico</li><li>Adobe Illustrator CS6</li></ul>",
-      illustration_img: 'http://hashdog.com/gallery/11.jpg',
-    },
-    {
-      tech: "<h1>Vinilos con estilo</h1><p>Grandes frases para motivar el espiritu.</p> <ul><li>Diseño Gráfico</li><li>Adobe Illustrator CS6</li></ul>",
-      illustration_img: 'http://hashdog.com/gallery/10.jpg',
-    },
-    {
-      tech: "<h1>Vinilos con estilo</h1><p>Circulos con graciosas y descriptivas imagenes.</p> <ul><li>Diseño Gráfico</li><li>Adobe Illustrator CS6</li></ul>",
-      illustration_img: 'http://hashdog.com/gallery/2.jpg',
-    },
-    {
-      tech: "<h1>Vinilos con estilo</h1><p>Circulos con graciosas y descriptivas imagenes.</p> <ul><li>Diseño Gráfico</li><li>Adobe Illustrator CS6</li></ul>",
-      illustration_img: 'http://hashdog.com/gallery/4.jpg',
-    }
-  ];
-
-  // initalize popup
-  $('button.vinyls').magnificPopup({
-    key: 'my-popup',
-    items: vinyls,
-    type: 'inline',
-    inline: {markup: markupIllustrations},
-    gallery: {enabled: true }
-  });
-
 
   // BANNERS
 
-  var hashdogBanners = [
+  var socialBanners = [
     {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para los Startups de toda América.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
       illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-1.jpg',
     },
     {
+      tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para Hashdog Company con humor.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/doggers-avengers.jpg',
+    },
+    {
       tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para los Startups de toda América.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-2.jpg',
-    },
-    {
-      tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para clientes que requieran calidad al estilo Ninja.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-3.jpg',
-    },
-    {
-      tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para clientes que requieran desarrolladores RubyOnRails al estilo Ninja.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-4.jpg',
-    },
-    {
-      tech: "<h1>Imagen Publicitaria</h1><p>Promoción Publicitaria para clientes que requieran desarrolladores RubyOnRails al estilo Ninja.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-5.jpg',
-    },
-    {
-      tech: "<h1>Imagen Publicitaria</h1><p>Promoción Doggers, son personajes que solo programan en RubyOnRails y se alimentan de Sándwiches.</p> <ul><li>Diseño Gráfico</li><li>Adobe Photoshop CS6</li></ul>",
-      illustration_img: 'http://www.francoalvarez.com.ar/img/works/big-hashdogBanner-6.jpg',
+      illustration_img: 'http://www.francoalvarez.com.ar/img/works/doggers-toys-story.jpg',
     }
   ];
 
   // initalize popup
-  $('button.hashdogBanners').magnificPopup({
+  $('button.socialBanners').magnificPopup({
     key: 'my-popup',
-    items: hashdogBanners,
+    items: socialBanners,
     type: 'inline',
     inline: {markup: markupIllustrations},
     gallery: {enabled: true }

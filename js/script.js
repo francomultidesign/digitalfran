@@ -40,7 +40,7 @@ $(document).ready(function(){
         if (target.length) {
           $('html, body').animate({
             scrollTop: target.offset().top
-          }, 1000);
+          }, 800);
           return false;
         }
       }
@@ -55,13 +55,14 @@ $(document).ready(function(){
       step: 1,
       title: "",
       values: {
-        "JavaScript": 4.1,
-        "Node.js": 3.5,
-        "jQuery": 4,
-        "PHP": 3,
-        "C++": 2.5,
-        "Problem Solving": 3.5,
-        "DHTML": 4
+        "HTML": 4.3,
+        "CSS": 4.5,
+        "JQuery": 3,
+        "Diseño Gráfico": 4.8,
+        "Video Gráfico": 4.1,
+        "Animacion": 3,
+        "Dir. Artistica": 4,
+        "Creatividad": 4.1,
       },
       showAxisLabels: false
     });
@@ -79,7 +80,7 @@ $(document).ready(function(){
           step: 1,
           size: [300,300],
           values: {},
-          color: [0,128,255]
+          color: [255,255,255]
         },settings);
         this.width = settings.size[0];
         this.height = settings.size[1];
@@ -186,8 +187,8 @@ $(document).ready(function(){
         i = 0;
         $.each(this.settings.values, function(key,val){
           that.newCanvas('label-'+i, i * 250);
-          that.cxt.fillStyle = "rgba(0,0,0,.8)";
-          that.cxt.strokeStyle = "rgba(0,0,0,.5)";
+          that.cxt.fillStyle = "rgba(255,255,255,.8)";
+          that.cxt.strokeStyle = "rgba(255,255,255,.5)";
           that.cxt.font = "bold 12px Verdana";
           var dist = Math.min(spacing * val, size * spacing);
           var x = that.width / 2 + Math.cos((Math.PI * 2) * (i / size)) * spacing * val;
